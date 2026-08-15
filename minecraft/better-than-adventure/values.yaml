@@ -18,3 +18,11 @@ minecraft:
       enabled: true
       existingClaim: better-than-adventure-pvc
       Size: 8Gi
+
+  resources:
+    requests:
+      memory: 4Gi
+      cpu: 1
+    limits:
+      memory: 8Gi
+      cpu: 6
