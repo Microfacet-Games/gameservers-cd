@@ -1,0 +1,12 @@
+apiVersion: v2
+name: minecraft-better-than-adventure
+description: Wrapper around minecraft-helm configured to Better Than Adventure
+type: application
+
+version: "8.0.1"
+appVersion: "8.0.1"
+
+dependencies:
+  - name: minecraft
+    version: 5.1.3
+    repository: itzghttps://itzg.github.io/minecraft-server-charts/

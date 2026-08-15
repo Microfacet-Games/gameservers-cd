@@ -1,0 +1,20 @@
+minecraft:
+  minecraftServer:
+    eula: true
+
+    version: "1.0"
+    type: "CUSTOM"
+
+    memory: "6G"
+
+    whitelist: OneTrueDerpius
+
+  extraEnv:
+    USE_AIKAR_FLAGS: "true"
+    CUSTOM_SERVER: "https://downloads.betterthanadventure.net/bta-server/release/v8.0.1/bta.v8.0.1.server.jar"
+
+  persistence:
+    dataDir:
+      enabled: true
+      existingClaim: better-than-adventure-pvc
+      Size: 8Gi
