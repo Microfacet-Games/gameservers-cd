@@ -3,6 +3,8 @@ kind: PersistentVolume
 metadata:
   name: better-than-adventure-pv
   namespace: gameservers
+  labels:
+    type: local
 spec:
   capacity:
     storage: 10Gi
