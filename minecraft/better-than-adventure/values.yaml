@@ -1,4 +1,7 @@
 minecraft:
+  image:
+    tag: java17
+
   minecraftServer:
     eula: true
 
