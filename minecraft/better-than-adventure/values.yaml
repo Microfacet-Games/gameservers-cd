@@ -8,7 +8,7 @@ minecraft:
     version: "b1.7.3"
     type: "CUSTOM"
 
-    whitelist: OneTrueDerpius,SgtPuggles
+    whitelist: OneTrueDerpius,SgtPuggles,xandertron5000
 
     forcegameMode: true
     motd: "The official TASBox BTA server - Better than GMod!"
