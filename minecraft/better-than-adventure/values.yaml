@@ -14,10 +14,10 @@ minecraft:
     motd: "The official TASBox BTA server - Better than GMod!"
 
     serviceType: "NodePort"
-    nodePort: "30100"
+    nodePort: 30100
 
     memory: "4G"
-    viewDistance: "16"
+    viewDistance: 16
 
   extraEnv:
     CUSTOM_SERVER: "https://downloads.betterthanadventure.net/bta-server/release/v8.0.1/bta.v8.0.1.server.jar"
