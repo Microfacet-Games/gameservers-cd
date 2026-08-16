@@ -8,7 +8,7 @@ minecraft:
     version: "1.0"
     type: "CUSTOM"
 
-    memory: "6G"
+    memory: "4G"
 
     whitelist: OneTrueDerpius
 
@@ -23,8 +23,8 @@ minecraft:
 
   resources:
     requests:
-      memory: 6Gi
+      memory: 4Gi
       cpu: 1
     limits:
-      memory: 16Gi
-      cpu: 10
+      memory: 6Gi
+      cpu: 8
