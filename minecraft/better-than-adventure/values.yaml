@@ -8,12 +8,21 @@ minecraft:
     version: "b1.7.3"
     type: "CUSTOM"
 
-    memory: "4G"
-
     whitelist: OneTrueDerpius
+
+    forcegameMode: true
+    motd: "The official TASBox BTA server - Better than GMod!"
+
+    serviceType: "NodePort"
+    nodePort: "30100"
+
+    memory: "4G"
+    viewDistance: "16"
 
   extraEnv:
     CUSTOM_SERVER: "https://downloads.betterthanadventure.net/bta-server/release/v8.0.1/bta.v8.0.1.server.jar"
+    ENABLE_ROLLING_LOGS: true
+    OVERRIDE_SERVER_PROPERTIES: true
 
   persistence:
     dataDir:
