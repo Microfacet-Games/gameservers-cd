@@ -1,0 +1,12 @@
+minecraft:
+  minecraftServer:
+    eula: true
+    memory: "4G"
+
+  resources:
+    requests:
+      memory: 4Gi
+      cpu: 1
+    limits:
+      memory: 6Gi
+      cpu: 8
