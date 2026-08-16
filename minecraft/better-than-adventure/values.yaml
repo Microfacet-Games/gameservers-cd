@@ -5,7 +5,7 @@ minecraft:
   minecraftServer:
     eula: true
 
-    version: "1.0"
+    version: "b1.7.3"
     type: "CUSTOM"
 
     memory: "4G"
